@@ -1,0 +1,29 @@
+div {
+	border: solid;
+}
+img.contact {
+	height: 50px;
+	width: 50px;
+}
+
+/*footer 1*/
+.footer{
+	background: #666666;
+	text-align: center;
+	padding:2.5rem;
+	position: relative;
+	margin-top:5rem;
+	right: 0;
+	left: 0;
+	top:0;
+	width: 100%;
+	color:#fff;
+	border-top:5px solid #48bfb1;
+}
+
+
+/*
+h2, h3 {
+	border-bottom: solid;
+}
+*/
