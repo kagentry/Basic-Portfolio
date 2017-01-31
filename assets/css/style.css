@@ -1,13 +1,25 @@
+/*		for all pages*/
+header {
+	background: white;
+}
 div {
 	border: solid;
+	overflow: auto;
+}
+div h1 {
+	background-color: #48bfb1;
+	color: white;
+	padding: 25px;
+	float: left;
+}
+body {
+	background-image: url("../images/new_year_background.png")
 }
 img.contact {
 	height: 50px;
 	width: 50px;
 }
-
-/*footer 1*/
-.footer{
+.footer {
 	background: #666666;
 	text-align: center;
 	padding:2.5rem;
@@ -20,6 +32,36 @@ img.contact {
 	color:#fff;
 	border-top:5px solid #48bfb1;
 }
+
+/*		for index page */
+.mypic {
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+/*		for portfolio page */
+.img1 {
+	background-image: url("../images/tempimg.png");
+	background-repeat: no-repeat;
+}
+.img2 {
+	background-image: url("../images/tempimg.png");
+	background-repeat: no-repeat;
+}
+.img3 {
+	background-image: url("../images/tempimg.png");
+	background-repeat: no-repeat;
+}
+.img4 {
+	background-image: url("../images/tempimg.png");
+	background-repeat: no-repeat;
+}
+.img5 {
+	background-image: url("../images/tempimg.png");
+	background-repeat: no-repeat;
+}
+
 
 
 /*

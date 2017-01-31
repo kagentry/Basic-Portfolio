@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Keythe's Page</title>
+		<title>Contact Page</title>
 		<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
-		<div>
-			<h1>Keythe Gentry</h1>
-		</div>
-		<div> <!--needs to be changed to <header> tag-->
-			<a href="index.html">About</a> |
-			<a href="portfolio.html">Portfolio</a> |
-			<a href="#">Contact</a>
-		</div>
+		<header>
+			<div>
+				<h1>Keythe Gentry</h1>
+			</div>
+			<div> <!--needs to be changed to <header> tag-->
+				<a href="index.html">About</a> |
+				<a href="portfolio.html">Portfolio</a> |
+				<a href="#">Contact</a>
+			</div>
+		</header>
 		<div>
 			<div>
 				<h2>Contact</h2>
 				<hr>
-				
+				<form>
+					Name:
+					<br>
+					<input type="text" name="name" placeholder="John Smith">
+					<br>
+					Email:
+					<br>
+					<input type="email" name="email" placeholder="example@gmail.com">
+					<br>
+					Message:
+					<br>
+					<textarea name="message" rows="10" cols="30"></textarea>
+					<br>
+					<input type="submit">
+				</form>
+			</div>
+			<div>
+				<h3>Connect with Me</h3>
+				<hr>
+				<a href="https://github.com/kagentry" target="_blank"><img src="assets/images/GitHub-icon.png" alt="GitHub" class="contact"></a>
+				<a href="https://www.linkedin.com/in/keythe-gentry-b762a5105?trk=hp-identity-photo" target="_blank"><img src="assets/images/linkedin-icon.png" alt="LinkedIn" class="contact"></a>
+				<a href="http://stackoverflow.com/users/7451262/keythe-gentry?tab=profile" target="_blank"><img src="assets/images/so-icon.png" alt="Stack Overflow" class="contact"></a>
 			</div>
 		</div>
+		<footer class="footer">
+			<p>© Copyright 2017 Keythe Gentry</p>
+		</footer>
+	</body>
+</html>
