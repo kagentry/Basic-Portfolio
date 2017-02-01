@@ -1,12 +1,50 @@
 /*		for all pages*/
 header {
 	background: white;
+	clear: both;
+	height: 100px;
+	width: 100%;
+	display: block;
+	/*position:fixed;*/
 }
+header h1 {
+	float: left;
+}
+header ul {
+	float: right;
+	border: solid;	/*take this out eventually*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
 div {
 	border: solid;
-	overflow: auto;
+	overflow: hidden;		/*allows for contents to be wrap inside div*/
 }
-div h1 {
+h1 {
 	background-color: #48bfb1;
 	color: white;
 	padding: 25px;
@@ -61,11 +99,3 @@ img.contact {
 	background-image: url("../images/tempimg.png");
 	background-repeat: no-repeat;
 }
-
-
-
-/*
-h2, h3 {
-	border-bottom: solid;
-}
-*/
