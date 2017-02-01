@@ -1,12 +1,16 @@
 /*		for all pages*/
+
+html {
+	height: 100%;
+	border: solid;
+}
 header {
 	background: white;
-	clear: both;
+	/*clear: both;*/
 	height: 75px;
 	width: 100%;
-	top: 0;
-	left: 0;
-	position: relative;
+	position: static;
+	overflow: auto;
 }
 header h1 {
 	float: left;
@@ -16,19 +20,21 @@ header h1 {
 	margin: 0 100px;
 	padding: 19px;
 }
-header ul {
+/*header ul {
 	float: left;
-	/*border: solid;	take this out eventually*/
+	border: solid;	take this out eventually
 	margin: 0px 100px;
 
-}
+}*/
 
-ul { /*can't figure out why I need to have this seciton when I already have above one*/
+ul { 
     list-style-type: none;
     /*margin: 0;*/
     padding: 10px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: white;
+    float: left;
+    margin: 0px 100px;
 }
 
 li {
@@ -52,12 +58,13 @@ section {
 	background-color: white;*/
 	/*border: solid;		/*take this out eventually*/
 	height:400px;
+	overflow: auto;
 
 }
 h2, h3 {
 	color: #48bfb1;
 }
-/*below div useless since only one div on page after modifications*/
+/*below div useless since only one div on page after modifications
 /*
 div {
 	position: relative;
@@ -73,7 +80,7 @@ div.main {
 	margin-left: 100px;
 	margin-top: 30px;
 	padding: 0 20px;
-	position: absolute;
+	position: static;
 	/*border: solid;	/*take this out eventually*/
 }
 
@@ -81,13 +88,14 @@ div.main {
 aside {
 	background-color: white;
 	height: 150px;
-	width: auto;
+	/*width: auto;*/
 	padding: 0 20px;
 	/*border: solid;	take this out eventually*/
-	float: right;
+	float: left;
 	margin-top: 30px;
 	/*margin-right: 50px;*/
-	right: 275px;
+	/*right: 275px;*/
+	margin-left: 50px;
 	position: relative;
 }
 /*
@@ -99,7 +107,12 @@ h1 {
 }
 */
 body {
-	background-image: url("../images/new_year_background.png")
+	background-image: url("../images/new_year_background.png");
+	margin: 0;
+	position: relative;
+	min-height: 100%;
+	/*height: 100%;*/
+	border: solid;
 }
 img.contact {
 	height: 50px;
@@ -113,13 +126,14 @@ img.contact {
 	color: lightgrey;
 	/*padding:2.5rem;*/
 	padding: 15px;
-	position: relative;
-	/*margin-top:5rem;*/
 	margin-top: 30px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	/*margin: 30px 0 0 0;*/
 	/*right: 0;*/
+	bottom: 0;
 	/*left: 0;*/
-	/*top:0;*/
-	width: inherit;
 	/*color:#fff;*/
 	border-top:5px solid #48bfb1;
 }
