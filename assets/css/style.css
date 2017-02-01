@@ -10,14 +10,17 @@ header {
 }
 header h1 {
 	float: left;
-	width: 250px;
+	width: auto;
 	background-color: #48bfb1;
 	color: white;
-	padding: 20px;
+	margin: 0 100px;
+	padding: 32px;
 }
 header ul {
 	float: right;
-	border: solid;	/*take this out eventually*/
+	/*border: solid;	/*take this out eventually*/
+	margin: 20px 100px;
+	
 }
 
 ul {
@@ -29,7 +32,7 @@ ul {
 }
 
 li {
-    float: right;
+    float: left;
 }
 
 li a {
@@ -45,13 +48,24 @@ li a:hover {
     color: white;
 }
 section {
-	position: relative;
+	/*position: relative;
+	background-color: white;*/
+	border: solid;
+	height:500px;
 
 }
+/*
 div {
 	position: relative;
 	border: solid;
-	overflow: hidden;		/*allows for contents to be wrap inside div*/
+	overflow: hidden;		/*allows for contents to be wrap inside div
+}*/
+
+/**************** moving main content box *************/
+div.main {
+	background-color: white;
+	float: left;
+	width: 400px;
 }
 /*
 h1 {
@@ -68,20 +82,21 @@ img.contact {
 	height: 50px;
 	width: 50px;
 }
+/*
 .footer {
 	background: #666666;
 	text-align: center;
 	padding:2.5rem;
 	position: relative;
 	margin-top:5rem;
-	/*right: 0;*/
+	right: 0;
 	left: 0;
 	top:0;
 	width: 100%;
 	color:#fff;
 	border-top:5px solid #48bfb1;
 }
-
+*/
 /*		for index page */
 .mypic {
 	height: 200px;
@@ -90,10 +105,11 @@ img.contact {
 }
 
 /*		for portfolio page */
-.img1 {
+.img1, .img2, .img3, .img4, .img5 {
 	background-image: url("../images/tempimg.png");
 	background-repeat: no-repeat;
 }
+/*
 .img2 {
 	background-image: url("../images/tempimg.png");
 	background-repeat: no-repeat;
@@ -109,4 +125,4 @@ img.contact {
 .img5 {
 	background-image: url("../images/tempimg.png");
 	background-repeat: no-repeat;
-}
+}*/
