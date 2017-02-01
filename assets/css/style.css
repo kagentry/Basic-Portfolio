@@ -2,7 +2,7 @@
 header {
 	background: white;
 	clear: both;
-	height: 100px;
+	height: 75px;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -10,23 +10,23 @@ header {
 }
 header h1 {
 	float: left;
-	width: auto;
+	/*width: auto;*/
 	background-color: #48bfb1;
 	color: white;
 	margin: 0 100px;
-	padding: 32px;
+	padding: 19px;
 }
 header ul {
-	float: right;
-	/*border: solid;	/*take this out eventually*/
-	margin: 20px 100px;
-	
+	float: left;
+	/*border: solid;	take this out eventually*/
+	margin: 0px 100px;
+
 }
 
-ul {
+ul { /*can't figure out why I need to have this seciton when I already have above one*/
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    /*margin: 0;*/
+    padding: 10px;
     overflow: hidden;
     background-color: white;
 }
@@ -50,10 +50,14 @@ li a:hover {
 section {
 	/*position: relative;
 	background-color: white;*/
-	border: solid;
-	height:500px;
+	/*border: solid;		/*take this out eventually*/
+	height:400px;
 
 }
+h2, h3 {
+	color: #48bfb1;
+}
+/*below div useless since only one div on page after modifications*/
 /*
 div {
 	position: relative;
@@ -66,6 +70,25 @@ div.main {
 	background-color: white;
 	float: left;
 	width: 400px;
+	margin-left: 100px;
+	margin-top: 30px;
+	padding: 0 20px;
+	position: absolute;
+	/*border: solid;	/*take this out eventually*/
+}
+
+/****************** aside box ***************/
+aside {
+	background-color: white;
+	height: 150px;
+	width: auto;
+	padding: 0 20px;
+	/*border: solid;	take this out eventually*/
+	float: right;
+	margin-top: 30px;
+	/*margin-right: 50px;*/
+	right: 275px;
+	position: relative;
 }
 /*
 h1 {
@@ -82,25 +105,30 @@ img.contact {
 	height: 50px;
 	width: 50px;
 }
-/*
+
 .footer {
 	background: #666666;
 	text-align: center;
-	padding:2.5rem;
+	font-size: 8pt;
+	color: lightgrey;
+	/*padding:2.5rem;*/
+	padding: 15px;
 	position: relative;
-	margin-top:5rem;
-	right: 0;
-	left: 0;
-	top:0;
-	width: 100%;
-	color:#fff;
+	/*margin-top:5rem;*/
+	margin-top: 30px;
+	/*right: 0;*/
+	/*left: 0;*/
+	/*top:0;*/
+	width: inherit;
+	/*color:#fff;*/
 	border-top:5px solid #48bfb1;
 }
-*/
+
 /*		for index page */
 .mypic {
 	height: 200px;
 	width: 200px;
+	padding-right: 20px;
 	float: left;
 }
 
