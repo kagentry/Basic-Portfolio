@@ -4,11 +4,16 @@ header {
 	clear: both;
 	height: 100px;
 	width: 100%;
-	display: block;
-	/*position:fixed;*/
+	top: 0;
+	left: 0;
+	position: relative;
 }
 header h1 {
 	float: left;
+	width: 250px;
+	background-color: #48bfb1;
+	color: white;
+	padding: 20px;
 }
 header ul {
 	float: right;
@@ -39,17 +44,23 @@ li a:hover {
     background-color: lightgrey;
     color: white;
 }
+section {
+	position: relative;
 
+}
 div {
+	position: relative;
 	border: solid;
 	overflow: hidden;		/*allows for contents to be wrap inside div*/
 }
+/*
 h1 {
 	background-color: #48bfb1;
 	color: white;
 	padding: 25px;
 	float: left;
 }
+*/
 body {
 	background-image: url("../images/new_year_background.png")
 }
@@ -63,7 +74,7 @@ img.contact {
 	padding:2.5rem;
 	position: relative;
 	margin-top:5rem;
-	right: 0;
+	/*right: 0;*/
 	left: 0;
 	top:0;
 	width: 100%;
